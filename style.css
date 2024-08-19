@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Orbitron:wght@400..900&family=VT323&display=swap');
+
+header {
+    position: relative;
+}
+
+header>div {
+    font-family: "Luckiest Guy";
+    background-color: #002137;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+
+header>div>span {
+    position: relative;
+    bottom: 9px;
+}
+
+.boxes {
+    width: 460px;
+    height: 460px;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.box {
+    box-shadow: 4px 4px 8px #0b3e5e;
+    border-radius: 30px;
+    background: #fca311;
+    width: 120px;
+    height: 120px;
+    font-family: "VT323";
+    cursor: pointer;
+    color: #f1faee;
+    font-size: 6rem;
+}
+
+.btn {
+    box-shadow: 4px 4px 8px #0b3e5e;
+    border-radius: 30px;
+    background: #fca311;
+    cursor: pointer;
+    color: #f1faee;
+    font-family: "VT323";
+    font-size: 2.8rem;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.windisplay {
+    width: 100vw;
+    display: flex;
+    margin: 30vh auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winmsg {
+    color: #f1faee;
+    font-family: "VT323";
+    font-size: 2.8rem;
+    padding: 10px 30px;
+}
+
+.reset {
+    position: absolute;
+    top: 364px;
+    right: 170px;
+}
+
+.reset > img {
+    margin-left: 23px;
+    margin-top: 3px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin: 56px 0px;
+}
+.home >span {
+    color: #f1faee;
+    font-family: "VT323";
+    font-size: 2.8rem;
+    padding: 10px 30px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Hi This is Tic Toe game, You Can Play It With Your Friends..! -->
+
+    <header>
+        <div>
+            Tic <span class="orange larger"> &nbsp; Tac &nbsp;</span> Toe
+        </div>
+    </header>
+
+    <main>
+        <div class="home">
+            <span>Welcome Dear Users !</span>
+            <span>Tap on New Game to Start Game between You and your Friend</span>
+            <span>My name is <span class="orange">Anish Bisht</span></span>
+            <span>And this game developed by me.</span>
+            <span><span class="orange">Enjoy</span> the <span class="orange">Game</span>.</span>
+            <button class="btn" id="Start" >New Game &gt;</button>
+        </div>
+       
+
+
+        <div class="windisplay hide">
+            <span class="winmsg">Congratulations ! Player You Won The Game</span>
+            <button class="btn " id="newGame">New Game &gt;</button>
+        </div>
+
+
+        <div class="boxes hide">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+        <button class="btn reset hide" >Reset Game <img src="assests/reset.svg" alt=""></button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
